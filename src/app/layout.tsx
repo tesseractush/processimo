@@ -36,46 +36,46 @@ const tertiary: FontConfig | undefined = undefined;
 /*
  */
 
-export async function generateMetadata(): Promise<Metadata> {
-  const host = (await headers()).get("host");
-  const metadataBase = host ? new URL(`https://${host}`) : undefined;
+// export async function generateMetadata(): Promise<Metadata> {
+//   const host = (await headers()).get("host");
+//   const metadataBase = host ? new URL(`https://${host}`) : undefined;
 
-  return {
-    title: meta.title,
-    description: meta.description,
-    openGraph: {
-      title: og.title,
-      description: og.description,
-      url: "https://" + baseURL,
-      images: [
-				{
-					url: og.image,
-					alt: og.title,
-				},
-			],
-      type: og.type as
-        | "website"
-        | "article"
-        | "book"
-        | "profile"
-        | "music.song"
-        | "music.album"
-        | "music.playlist"
-        | "music.radio_station"
-        | "video.movie"
-        | "video.episode"
-        | "video.tv_show"
-        | "video.other",
-    },
-    twitter: {
-			card: 'summary_large_image',
-			title: og.title,
-			description: og.description,
-			images: [og.image],
-		},
-    metadataBase,
-  };
-}
+//   return {
+//     title: meta.title,
+//     description: meta.description,
+//     openGraph: {
+//       title: og.title,
+//       description: og.description,
+//       url: "https://" + baseURL,
+//       images: [
+// 				{
+// 					url: og.image,
+// 					alt: og.title,
+// 				},
+// 			],
+//       type: og.type as
+//         | "website"
+//         | "article"
+//         | "book"
+//         | "profile"
+//         | "music.song"
+//         | "music.album"
+//         | "music.playlist"
+//         | "music.radio_station"
+//         | "video.movie"
+//         | "video.episode"
+//         | "video.tv_show"
+//         | "video.other",
+//     },
+//     twitter: {
+// 			card: 'summary_large_image',
+// 			title: og.title,
+// 			description: og.description,
+// 			images: [og.image],
+// 		},
+//     metadataBase,
+//   };
+// }
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -84,7 +84,7 @@ const schemaData = {
   logo: schema.logo,
   name: schema.name,
   description: schema.description,
-  email: schema.email,
+ 
   sameAs: Object.values(social).filter(Boolean),
 };
 
