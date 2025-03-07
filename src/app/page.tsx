@@ -251,7 +251,7 @@ export default function Home() {
               overflow="hidden"
             >
               <Row fill hide="m">
-                <SmartImage src="/images/customer-support-lady.jpeg" alt="Preview image" sizes="560px" />
+                <SmartImage src="./images/customer-support-lady.jpeg" alt="Preview image" sizes="560px" />
               </Row>
               <Column fillWidth horizontal="center" gap="20" padding="32" position="relative">
                 <Background
@@ -278,7 +278,7 @@ export default function Home() {
                   </Row>
                 </Row>
                 <Text onBackground="neutral-weak">
-                  Customer Support agents are designed to provide assistance to customers with their inquiries and issues. <br /> They can handle a wide range of customer requests, from product information to order status updates and technical support.
+                  Customer Support agents are designed to provide assistance to customers with their inquiries and issues. <br/> They can handle a wide range of customer requests, from product information to order status updates and technical support.
                 </Text>
                 <Column gap="24" fillWidth>
                   <Text variant="body-strong-m" onBackground="neutral-strong">How It Works:</Text>
@@ -333,7 +333,7 @@ export default function Home() {
               overflow="hidden"
             >
               <Row fill hide="m">
-                <SmartImage src="/images/meme-generator.png" alt="Preview image" sizes="560px" />
+                <SmartImage src="./images/meme-generator.png" alt="Preview image" sizes="560px" />
               </Row>
               <Column fillWidth horizontal="center" gap="20" padding="32" position="relative">
                 <Background
@@ -409,7 +409,7 @@ export default function Home() {
             overflow="hidden"
           >
             <Row fill hide="m">
-              <SmartImage src="/images/real-estate-agent.png" alt="Preview image" sizes="560px" />
+              <SmartImage src="./images/real-estate-agent.png" alt="Preview image" sizes="560px" />
             </Row>
             <Column fillWidth horizontal="center" gap="20" padding="32" position="relative">
               <Background
