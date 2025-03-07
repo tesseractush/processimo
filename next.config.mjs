@@ -1,11 +1,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",  // <=== enables static exports
+  distDir: "dist",
+  images: {
+    unoptimized: true, },
   sassOptions: {
     compiler: "modern",
     silenceDeprecations: ["legacy-js-api"],
-    output: "export",  // <=== enables static exports
+    
     reactStrictMode: true,
-  },
+    
+    },
+  
 };
 
 export default nextConfig;
