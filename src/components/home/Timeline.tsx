@@ -94,7 +94,7 @@ const Timeline = () => {
         {/* Image placeholder */}
         <div className="mt-20 max-w-3xl mx-auto rounded-lg overflow-hidden border border-border shadow-md">
           <div className="aspect-[16/9] w-full bg-secondary/50 flex items-center justify-center">
-            <p className="text-muted-foreground">Timeline Illustration Image</p>
+            <img src="./public/images/1.png" className="relative z-10 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 rounded-large aspect-square h-full w-full object-cover object-top" alt="Mimic how you actually work" data-loaded="true"></img>
           </div>
         </div>
       </div>

@@ -114,7 +114,7 @@ const GuidesPost = () => {
                   />
                 ) : (
                   <div className="w-full h-[400px] flex items-center justify-center bg-secondary/50">
-                    <p className="text-muted-foreground">Guide Cover Image</p>
+                      <img src="./public/images/5.png"  data-loaded="true"></img>
                   </div>
                 )}
               </div>

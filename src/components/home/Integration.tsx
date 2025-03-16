@@ -65,7 +65,7 @@ const Integration = () => {
         {/* Image placeholder */}
         <div className="max-w-4xl mx-auto mt-8 mb-12 rounded-lg overflow-hidden border border-border shadow-md">
           <div className="aspect-[16/9] w-full bg-secondary/70 flex items-center justify-center">
-            <p className="text-muted-foreground">Integration Showcase Image</p>
+            <img src="./public/images/2.png" className="relative z-10 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 rounded-large aspect-square h-full w-full object-cover object-top" alt="Integerations" data-loaded="true"></img>
           </div>
         </div>
 

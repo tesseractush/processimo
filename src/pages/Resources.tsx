@@ -26,7 +26,7 @@ const resources: Record<string, ResourceCardProps[]> = {
       description: "A complete guide to setting up your Processimo account, creating your first agent, and building your first workflow.",
       imageUrl: "/placeholder.svg",
       date: "Updated: May 2023",
-      link: "/resources/documentation/getting-started",
+      link: "/documentation/getting-started",
       type: "documentation"
     },
     {
@@ -34,7 +34,7 @@ const resources: Record<string, ResourceCardProps[]> = {
       description: "Learn how to create specialized AI agents tailored to specific business tasks and train them with relevant data.",
       imageUrl: "/placeholder.svg",
       date: "Updated: June 2023",
-      link: "/resources/documentation/agent-creation",
+      link: "/documentation/agent-creation",
       type: "documentation"
     },
     {
@@ -42,7 +42,7 @@ const resources: Record<string, ResourceCardProps[]> = {
       description: "Comprehensive documentation on using the visual workflow builder to create multi-agent collaboration processes.",
       imageUrl: "/placeholder.svg",
       date: "Updated: July 2023",
-      link: "/resources/documentation/workflow-builder",
+      link: "/documentation/workflow-builder",
       type: "documentation"
     },
     {
@@ -50,7 +50,7 @@ const resources: Record<string, ResourceCardProps[]> = {
       description: "Detailed instructions for connecting and integrating external knowledge sources to train and inform your AI agents.",
       imageUrl: "/placeholder.svg",
       date: "Updated: August 2023",
-      link: "/resources/documentation/knowledge-integration",
+      link: "/documentation/knowledge-integration",
       type: "documentation"
     },
     {
@@ -58,7 +58,7 @@ const resources: Record<string, ResourceCardProps[]> = {
       description: "Complete API documentation for developers looking to integrate Processimo capabilities into their applications.",
       imageUrl: "/placeholder.svg",
       date: "Updated: September 2023",
-      link: "/resources/documentation/api-reference",
+      link: "/documentation/api-reference",
       type: "documentation"
     },
     {
@@ -66,7 +66,7 @@ const resources: Record<string, ResourceCardProps[]> = {
       description: "Guidelines and recommendations for securing your Processimo implementation and protecting sensitive business data.",
       imageUrl: "/placeholder.svg",
       date: "Updated: October 2023",
-      link: "/resources/documentation/security-practices",
+      link: "/documentation/security-practices",
       type: "documentation"
     }
   ],
@@ -76,7 +76,7 @@ const resources: Record<string, ResourceCardProps[]> = {
       description: "A comprehensive overview of the Processimo platform, its features, and how it can transform your business operations.",
       imageUrl: "/placeholder.svg",
       readTime: "15:20",
-      link: "/resources/videos/platform-overview",
+      link: "/videos/platform-overview",
       type: "video"
     },
     {
@@ -84,7 +84,7 @@ const resources: Record<string, ResourceCardProps[]> = {
       description: "Step-by-step tutorial on creating and configuring your first specialized AI agent with Processimo.",
       imageUrl: "/placeholder.svg",
       readTime: "12:45",
-      link: "/resources/videos/first-agent",
+      link: "/videos/first-agent",
       type: "video"
     },
     {
@@ -92,7 +92,7 @@ const resources: Record<string, ResourceCardProps[]> = {
       description: "Learn how to design and implement workflows that allow multiple AI agents to collaborate on complex tasks.",
       imageUrl: "/placeholder.svg",
       readTime: "18:30",
-      link: "/resources/videos/workflows",
+      link: "/videos/workflows",
       type: "video"
     },
     {
@@ -100,7 +100,7 @@ const resources: Record<string, ResourceCardProps[]> = {
       description: "Detailed walkthrough of uploading and using custom business data to enhance your AI agents' capabilities.",
       imageUrl: "/placeholder.svg",
       readTime: "14:15",
-      link: "/resources/videos/custom-training",
+      link: "/videos/custom-training",
       type: "video"
     },
     {
@@ -108,7 +108,7 @@ const resources: Record<string, ResourceCardProps[]> = {
       description: "How to connect Processimo with popular business tools and services to create seamless workflows.",
       imageUrl: "/placeholder.svg",
       readTime: "20:10",
-      link: "/resources/videos/integrations",
+      link: "/videos/integrations",
       type: "video"
     },
     {
@@ -116,7 +116,7 @@ const resources: Record<string, ResourceCardProps[]> = {
       description: "Expert techniques for fine-tuning AI agent parameters and optimizing performance for specific use cases.",
       imageUrl: "/placeholder.svg",
       readTime: "22:35",
-      link: "/resources/videos/advanced-config",
+      link: "/videos/advanced-config",
       type: "video"
     }
   ],
@@ -127,7 +127,7 @@ const resources: Record<string, ResourceCardProps[]> = {
       imageUrl: "/placeholder.svg",
       date: "January 2023",
       readTime: "15 min read",
-      link: "/resources/guides/implementation-roadmap",
+      link: "/guides/implementation-roadmap",
       type: "guide"
     },
     {
@@ -136,7 +136,7 @@ const resources: Record<string, ResourceCardProps[]> = {
       imageUrl: "/placeholder.svg",
       date: "February 2023",
       readTime: "12 min read",
-      link: "/resources/guides/industry-templates",
+      link: "/guides/industry-templates",
       type: "guide"
     },
     {
@@ -145,7 +145,7 @@ const resources: Record<string, ResourceCardProps[]> = {
       imageUrl: "/placeholder.svg",
       date: "March 2023",
       readTime: "9 min read",
-      link: "/resources/guides/data-preparation",
+      link: "/guides/data-preparation",
       type: "guide"
     },
     {
@@ -154,7 +154,7 @@ const resources: Record<string, ResourceCardProps[]> = {
       imageUrl: "/placeholder.svg",
       date: "April 2023",
       readTime: "11 min read",
-      link: "/resources/guides/workflow-optimization",
+      link: "/guides/workflow-optimization",
       type: "guide"
     },
     {
@@ -163,7 +163,7 @@ const resources: Record<string, ResourceCardProps[]> = {
       imageUrl: "/placeholder.svg",
       date: "May 2023",
       readTime: "14 min read",
-      link: "/resources/guides/change-management",
+      link: "/guides/change-management",
       type: "guide"
     },
     {
@@ -172,7 +172,7 @@ const resources: Record<string, ResourceCardProps[]> = {
       imageUrl: "/placeholder.svg",
       date: "June 2023",
       readTime: "10 min read",
-      link: "/resources/guides/roi-framework",
+      link: "/guides/roi-framework",
       type: "guide"
     }
   ]
@@ -281,7 +281,7 @@ const ResourcesPage = () => {
             {/* Large banner image */}
             <div className="mt-20 rounded-lg overflow-hidden border border-border shadow-md">
               <div className="aspect-[21/9] w-full bg-secondary/50 flex items-center justify-center">
-                <p className="text-muted-foreground">Resources Banner Image</p>
+                <img src="./public/images/3.png" className="relative z-10 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 rounded-large aspect-square h-full w-full object-cover object-top" alt="Mimic how you actually work" data-loaded="true"></img>
               </div>
             </div>
           </div>

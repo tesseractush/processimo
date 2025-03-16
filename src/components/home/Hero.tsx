@@ -30,7 +30,7 @@ const Hero = () => {
         
         // If we've fully typed the word, start deleting after a pause
         if (displayText === currentPhrase) {
-          setTypingSpeed(2000); // delay before deleting
+          setTypingSpeed(500); // delay before deleting
           setIsDeleting(true);
         }
       } else {
@@ -69,10 +69,10 @@ const Hero = () => {
           
           {/* Headline */}
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight max-w-4xl animate-slide-up text-balance">
-            Design, build and deploy AI agent workflows to Automate your
-            <span className="relative ml-2">
+            Design, build and deploy <br />AI agent workflows to Automate your
+            <span className="relative ml-2"><br />
               <span className="text-gradient min-h-[1.25em] inline-block">{displayText}</span>
-              <span className="absolute -bottom-1 left-0 right-0 h-1 bg-gradient-to-r from-purple-500/40 to-blue-500/40 rounded-full"></span>
+              <span className="auto -bottom-1 left-0 right-0 h-1 bg-gradient-to-r from-purple-500/40 to-cyan-500/40 rounded-full"></span>
             </span>
           </h1>
           

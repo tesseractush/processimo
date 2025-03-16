@@ -1,4 +1,3 @@
-
 import { BlogSection } from "./blog-posts";
 
 export interface Guide {
@@ -19,7 +18,7 @@ export const guides: Guide[] = [
     title: "AI Agent Implementation Roadmap",
     description: "A comprehensive guide to planning and executing your organization's AI agent strategy from initial setup to full deployment.",
     slug: "implementation-roadmap",
-    imageUrl: "/placeholder.svg",
+    imageUrl: "./public/images/5.png",
     date: "January 2023",
     readTime: "15 min read",
     content: [
