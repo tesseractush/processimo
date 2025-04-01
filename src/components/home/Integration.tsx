@@ -10,10 +10,10 @@ const integrationCategories = [
     name: "AI Models",
     items: [
       { name: "OpenAI", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1024px-ChatGPT_logo.svg.png" },
-      { name: "Anthropic Claude", logo: "https://framerusercontent.com/images/nXLK5EqKJBT9IJfEpM2j7B0GYI.png" },
-      { name: "Google Gemini", logo: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_1.max-1000x1000.png" },
-      { name: "Meta Llama", logo: "https://about.fb.com/wp-content/uploads/2021/10/Meta-Logo.png?fit=1200%2C613" },
-      { name: "Mistral AI", logo: "https://avatars.githubusercontent.com/u/128122921?s=200&v=4" },
+      { name: "Anthropic Claude", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Claude_AI_logo.svg/520px-Claude_AI_logo.svg.png" },
+      { name: "Google Gemini", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/460px-Google_Gemini_logo.svg.png" },
+      { name: "Meta Llama", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Meta_Platforms_Inc._logo_%28cropped%29.svg/2880px-Meta_Platforms_Inc._logo_%28cropped%29.svg.png" },
+      { name: "Mistral AI", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Mistral_AI_logo_%282025%E2%80%93%29.svg/360px-Mistral_AI_logo_%282025%E2%80%93%29.svg.png" },
     ]
   },
   {
