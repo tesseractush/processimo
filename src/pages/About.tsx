@@ -22,13 +22,13 @@ const AboutPage = () => {
                 <h3 className="text-2xl font-semibold mb-4">Our Story</h3>
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                    Processimo was founded in 2023 by a team of AI researchers and industry veterans who recognized a significant gap in the market: while powerful AI models were becoming available, most businesses struggled to effectively implement them for their specific needs.
+                    Born in 2025, Processimo emerged from the collective vision of passionate software engineers and industry pioneers who identified a critical market void: despite the proliferation of sophisticated AI models, businesses lacked accessible pathways to harness this power for their unique operational challenges.
                   </p>
                   <p>
-                    We set out to create a platform that would allow any organization to build specialized AI agents tailored to their unique requirements, without needing expertise in machine learning or large development teams.
+                    Our founding mission was revolutionary yet practical—to democratize AI implementation through an intuitive platform where organizations of any size could craft specialized AI agents precisely aligned with their business objectives, eliminating the traditional barriers of technical expertise and resource constraints.
                   </p>
                   <p>
-                    Today, Processimo is helping companies across industries achieve dramatic productivity improvements by implementing AI agent workflows that automate complex tasks and enable more effective collaboration between humans and AI.
+                    Today, Processimo stands at the forefront of business transformation, enabling companies across diverse sectors to achieve unprecedented productivity gains through seamlessly integrated AI agent workflows. These intelligent systems not only automate complex operational processes but foster a new paradigm of human-AI collaboration that amplifies organizational capabilities beyond conventional limits.
                   </p>
                 </div>
               </div>
@@ -101,19 +101,36 @@ const AboutPage = () => {
             <div>
               <h3 className="text-2xl font-semibold mb-8 text-center">Meet Our Leadership Team</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-                {[1, 2, 3, 4].map((member) => (
+                {/* Founder */}
+                <div 
+                  className="bg-background border border-border rounded-xl overflow-hidden shadow-sm animate-fade-in"
+                  style={{ animationDelay: `100ms` }}
+                >
+                  <div className="aspect-square w-full bg-secondary/50 flex items-center justify-center">
+                    <p className="text-muted-foreground">Founder Photo</p>
+                  </div>
+                  <div className="p-4">
+                    <h4 className="font-semibold text-lg">Mrityunjay Srivastava</h4>
+                    <p className="text-sm text-muted-foreground mb-2">Founder, Gen AI Engineer</p>
+                    <p className="text-sm text-muted-foreground mb-2">Software Engineer turned Gen AI Engineer. Looking forward to make tools that eliminates manual work.</p>
+                    <a href="https://www.tesseractush.in" target="_blank" rel="noopener noreferrer" className="text-sm text-primary hover:underline">www.tesseractush.in</a>
+                  </div>
+                </div>
+                
+                {/* Open Positions */}
+                {[1, 2, 3].map((position) => (
                   <div 
-                    key={member}
+                    key={position}
                     className="bg-background border border-border rounded-xl overflow-hidden shadow-sm animate-fade-in"
-                    style={{ animationDelay: `${member * 100}ms` }}
+                    style={{ animationDelay: `${(position + 1) * 100}ms` }}
                   >
-                    <div className="aspect-square w-full bg-secondary/50 flex items-center justify-center">
-                      <p className="text-muted-foreground">Team Member Photo</p>
+                    <div className="aspect-square w-full bg-secondary/40 flex items-center justify-center">
+                      <p className="text-muted-foreground">Open Position</p>
                     </div>
                     <div className="p-4">
-                      <h4 className="font-semibold text-lg">Team Member Name</h4>
-                      <p className="text-sm text-muted-foreground mb-2">Position/Title</p>
-                      <p className="text-sm text-muted-foreground">Brief background description of the team member.</p>
+                      <h4 className="font-semibold text-lg">Join Our Team</h4>
+                      <p className="text-sm text-muted-foreground mb-2">We're Hiring!</p>
+                      <p className="text-sm text-muted-foreground">We're currently looking for positions on YCombinator and Coffeespace. Please contact us at <a href="mailto:tesseractush@gmail.com" className="text-primary hover:underline">tesseractush@gmail.com</a></p>
                     </div>
                   </div>
                 ))}

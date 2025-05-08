@@ -14,40 +14,40 @@ import {
 
 const testimonials = [
   {
-    quote: "Processimo has revolutionized how our team works. The AI agents handle routine tasks while we focus on strategy. Our productivity has increased by at least 40%.",
-    author: "Sarah Johnson",
-    title: "CTO, TechVision",
-    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80"
+    quote: "Processimo has revolutionized my legal practice. The AI agents handle routine document review while I focus on client strategy. My productivity has increased by at least 40%.",
+    author: "Priya Sharma",
+    title: "Lawyer, Delhi High Court",
+    avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80"
   },
   {
-    quote: "The multi-agent workflows have transformed our research capabilities. We're analyzing data and generating insights faster than ever before.",
-    author: "Michael Chen",
-    title: "Research Director, InnovateLabs",
-    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80"
+    quote: "The multi-agent workflows have transformed how I prepare lesson plans and grade assignments. I'm creating educational content and providing feedback faster than ever before.",
+    author: "Rajesh Patel",
+    title: "Teacher, Delhi Public School",
+    avatar: "https://images.unsplash.com/photo-1605664042097-e67a4357d70c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80"
   },
   {
-    quote: "Implementing Processimo's AI agents for customer support has reduced our response time by 65% while maintaining high quality interactions.",
-    author: "Elena Rodriguez",
-    title: "Customer Experience Lead, GlobalServe",
-    avatar: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80"
+    quote: "Implementing Processimo's AI agents for content creation has reduced our posting time by 65% while maintaining high quality interactions with our audience.",
+    author: "Ananya Desai",
+    title: "Social Media Manager, TrendWave",
+    avatar: "https://images.unsplash.com/photo-1664575599736-c5197c684128?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80"
   },
   {
-    quote: "The ease of training AI agents with our proprietary data has given us a competitive edge. Our analysis workflow now runs 24/7 without human intervention.",
-    author: "David Park",
-    title: "Head of Analytics, DataDriven",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80"
+    quote: "The ease of training AI agents with our proprietary data has given our HR team a competitive edge. Our recruitment workflow now runs 24/7 without constant human intervention.",
+    author: "Vikram Malhotra",
+    title: "HR Manager, IndiTech Solutions",
+    avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80"
   },
   {
-    quote: "Our marketing team has seen incredible results using Processimo. We can now create, analyze, and optimize campaigns with unprecedented speed.",
-    author: "Jennifer Lee",
-    title: "Marketing Director, BrandForward",
-    avatar: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80"
+    quote: "Our accounting team has seen incredible results using Processimo. We can now process, analyze, and reconcile financial data with unprecedented speed and accuracy.",
+    author: "Deepa Krishnan",
+    title: "Senior Accountant, FinancePlus",
+    avatar: "https://images.unsplash.com/photo-1619085078268-29a4e1c41c2e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80"
   },
   {
-    quote: "As a financial advisor, time is crucial. Processimo's AI agents have automated our report generation and analysis, saving us hundreds of hours per month.",
-    author: "Robert Williams",
-    title: "Principal, FinancePro Advisors",
-    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80"
+    quote: "As a software developer, code quality and speed are crucial. Processimo's AI agents have automated our testing and documentation processes, saving us hundreds of hours per month.",
+    author: "Arjun Mehta",
+    title: "Full Stack Developer, CodeCraft",
+    avatar: "https://images.unsplash.com/photo-1618151313441-bc79b11e5c45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80"
   },
 ];
 
