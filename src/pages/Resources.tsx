@@ -281,7 +281,7 @@ const ResourcesPage = () => {
             {/* Large banner image */}
             <div className="mt-20 rounded-lg overflow-hidden border border-border shadow-md">
               <div className="aspect-[21/9] w-full bg-secondary/50 flex items-center justify-center">
-                <img src="./public/images/3.png" className="relative z-10 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 rounded-large aspect-square h-full w-full object-cover object-top" alt="Mimic how you actually work" data-loaded="true"></img>
+                <img src="/images/3.png" className="relative z-10 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 rounded-large aspect-square h-full w-full object-cover object-top" alt="Mimic how you actually work" data-loaded="true"></img>
               </div>
             </div>
           </div>

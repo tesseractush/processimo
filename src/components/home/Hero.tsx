@@ -99,7 +99,7 @@ const Hero = () => {
           </div>
           
           {/* Feature highlights */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-4xl pt-10 animate-fade-in animation-delay-300">
+           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-4xl pt-10 animate-fade-in animation-delay-300">
             <div className="flex flex-col items-center text-center space-y-2">
               <div className="w-12 h-12 rounded-full bg-secondary flex items-center justify-center mb-2">
                 <Brain className="w-6 h-6 text-primary" />
@@ -122,9 +122,9 @@ const Hero = () => {
               <div className="w-12 h-12 rounded-full bg-secondary flex items-center justify-center mb-2">
                 <Laptop className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="font-medium">Easy Integration</h3>
+              <h3 className="font-medium">Agent Marketplace</h3>
               <p className="text-sm text-muted-foreground">
-                Connect to your favorite tools and platforms
+                Access pre-built agents on subscription basis
               </p>
             </div>
           </div>

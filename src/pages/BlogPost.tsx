@@ -114,7 +114,7 @@ const BlogPost = () => {
                   />
                 ) : (
                   <div className="w-full h-[400px] flex items-center justify-center bg-secondary/50">
-                      <img src="./public/images/4.png" className="relative z-10 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 rounded-large aspect-square h-full w-full object-cover object-top" alt="Mimic how you actually work" data-loaded="true"></img>
+                      <img src="/images/4.png" className="relative z-10 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 rounded-large aspect-square h-full w-full object-cover object-top" alt="Mimic how you actually work" data-loaded="true"></img>
                   </div>
                 )}
               </div>

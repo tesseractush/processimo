@@ -67,24 +67,14 @@ const Footer = () => {
             </h3>
             <ul className="mt-4 space-y-3">
               <li>
-                <Link to="/resources" className="text-muted-foreground hover:text-primary transition-colors">
+                <a href="https://blog.processimo.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                   Blog
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/resources" className="text-muted-foreground hover:text-primary transition-colors">
+                <a href="https://docs.processimo.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                   Documentation
-                </Link>
-              </li>
-              <li>
-                <Link to="/resources" className="text-muted-foreground hover:text-primary transition-colors">
-                  Video Tutorials
-                </Link>
-              </li>
-              <li>
-                <Link to="/resources" className="text-muted-foreground hover:text-primary transition-colors">
-                  Guides
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

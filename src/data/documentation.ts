@@ -25,7 +25,7 @@ export const documentation: Documentation[] = [
     title: "Getting Started with Processimo",
     description: "A complete guide to setting up your Processimo account, creating your first agent, and building your first workflow.",
     slug: "getting-started",
-    imageUrl: "./public/images/3.png",
+    imageUrl: "/images/3.png",
     date: "Updated: May 2023",
     content: [
       {

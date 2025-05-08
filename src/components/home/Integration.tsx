@@ -22,16 +22,10 @@ const integrationCategories = [
     items: [
       { name: "Google Drive", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Google_Drive_icon_%282020%29.svg/1200px-Google_Drive_icon_%282020%29.svg.png" },
       { name: "Notion", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/1024px-Notion-logo.svg.png" },
-      { name: "Dropbox", logo: "https://aem.dropbox.com/cms/content/dam/dropbox/www/en-us/branding/app-dropbox.png" },
-      { name: "ARXIV", logo: "https://static.arxiv.org/static/base/0.19.4/images/arxiv-logo-web.svg" },
-      { name: "Wikipedia", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png" },
-      { name: "Google Search", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png" },
-      { name: "ERPNext", logo: "https://erpnext.com/files/erpnext-logo.png" },
-      { name: "SuiteCRM", logo: "https://suitecrm.com/wp-content/uploads/2017/12/SuiteCRM-Logo.svg" },
-      { name: "Slack", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Slack_icon_2019.svg/2048px-Slack_icon_2019.svg.png" },
-      { name: "LinkedIn", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png" },
-      { name: "Asana", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Asana_logo.svg/1200px-Asana_logo.svg.png" },
-      { name: "Jira", logo: "https://wac-cdn.atlassian.com/dam/jcr:e348b562-4152-4cdc-8a55-3d297e509cc8/Jira%20Software-blue.svg" },
+      { name: "Dropbox", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Dropbox_logo_2017.svg/250px-Dropbox_logo_2017.svg.png" },
+      { name: "ARXIV", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/ArXiv_logo_2022.svg/250px-ArXiv_logo_2022.svg.png" },
+      { name: "Google Search", logo: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" },
+      { name: "SuiteCRM", logo: "https://suitecrm.com/wp-content/uploads/2018/02/suitecrm-logo-300x68.png" },
     ]
   },
   {
@@ -42,7 +36,7 @@ const integrationCategories = [
       { name: "Word", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Microsoft_Office_Word_%282019%E2%80%93present%29.svg/2203px-Microsoft_Office_Word_%282019%E2%80%93present%29.svg.png" },
       { name: "PowerPoint", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg.png" },
       { name: "Excel", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/2203px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png" },
-      { name: "Audio", logo: "https://cdn-icons-png.flaticon.com/512/6295/6295417.png" },
+      { name: "Audio", logo: "https://www.pngwing.com/en/free-png-ixqvm" },
       { name: "Video", logo: "https://cdn-icons-png.flaticon.com/512/1179/1179069.png" },
     ]
   }
@@ -65,7 +59,7 @@ const Integration = () => {
         {/* Image placeholder */}
         <div className="max-w-4xl mx-auto mt-8 mb-12 rounded-lg overflow-hidden border border-border shadow-md">
           <div className="aspect-[16/9] w-full bg-secondary/70 flex items-center justify-center">
-            <img src="./public/images/2.png" className="relative z-10 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 rounded-large aspect-square h-full w-full object-cover object-top" alt="Integerations" data-loaded="true"></img>
+            <img src="/images/2.png" className="relative z-10 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 rounded-large aspect-square h-full w-full object-cover object-top" alt="Integerations" data-loaded="true"></img>
           </div>
         </div>
 

@@ -93,7 +93,7 @@ const ContactPage = () => {
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground">Office</p>
-                      <p className="font-medium">San Francisco, California</p>
+                      <p className="font-medium">Lucknow, India</p>
                     </div>
                   </div>
                   
@@ -103,7 +103,7 @@ const ContactPage = () => {
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground">Phone</p>
-                      <p className="font-medium">+1 (555) 123-4567</p>
+                      <p className="font-medium">+91 9696077876</p>
                     </div>
                   </div>
                 </div>

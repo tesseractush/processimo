@@ -11,6 +11,12 @@ const features = [
     color: "bg-blue-500/10 text-blue-500",
   },
   {
+    icon: Network,
+    title: "MCP Server Integration",
+    description: "Seamlessly connect with your preferred MCP server for enhanced AI capabilities.",
+    color: "bg-red-500/10 text-red-500",
+  },
+  {
     icon: FileText,
     title: "Train with Any Data",
     description: "Feed your AI agents with PDF, Word, PowerPoint, Excel, Audio, Video, and more.",
