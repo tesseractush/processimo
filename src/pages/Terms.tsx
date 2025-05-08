@@ -11,7 +11,7 @@ const TermsPage = () => {
           <SectionHeading
             badge="Legal"
             title="Terms of Service"
-            subtitle="Effective Date: June 1, 2023. Last Updated: May 15, 2023."
+            subtitle="Effective Date: April 1, 2025. Last Updated: May 09, 2025."
           />
           
           <div className="max-w-4xl mx-auto mt-16 prose prose-sm dark:prose-invert">

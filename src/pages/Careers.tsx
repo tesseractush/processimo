@@ -24,16 +24,26 @@ const CareersPage = () => {
                 </div>
               </div>
               
-              <h3 className="text-2xl font-semibold mb-4">No open positions at the moment</h3>
+              <h3 className="text-2xl font-semibold mb-4">Strategic Growth Opportunities</h3>
               <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
-                While we don't have any active job listings right now, we're always on the lookout for talented individuals who are passionate about AI and want to make a difference. Join our community to stay updated on future opportunities.
+                We are actively seeking visionary business strategists and innovative marketing professionals to join our founding team. Through our networks at Y Combinator, LinkedIn, and CoffeeSpace, we're connecting with exceptional talent who are passionate about revolutionizing AI implementation across industries.
+              </p>
+              <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
+                If you possess entrepreneurial drive and wish to shape the future of business AI at a ground-floor opportunity, we welcome your connection. Your expertise could be instrumental in our journey toward transforming how businesses harness artificial intelligence.
               </p>
               
-              <Button asChild size="lg">
-                <a href="https://discord.gg/vRSh5ydT" target="_blank" rel="noopener noreferrer">
-                  Join our Discord community
-                </a>
-              </Button>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Button asChild size="lg">
+                  <a href="mailto:tesseractush@gmail.com" target="_blank" rel="noopener noreferrer">
+                    Connect via Email
+                  </a>
+                </Button>
+                <Button variant="outline" asChild size="lg">
+                  <a href="https://www.linkedin.com/in/tesseractush" target="_blank" rel="noopener noreferrer">
+                    Connect on LinkedIn
+                  </a>
+                </Button>
+              </div>
             </div>
             
             {/* Why join us */}
