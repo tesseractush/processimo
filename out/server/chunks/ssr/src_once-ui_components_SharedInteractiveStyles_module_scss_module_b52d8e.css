@@ -1,0 +1,91 @@
+/* [project]/src/once-ui/components/SharedInteractiveStyles.module.scss.module.css [app-client] (css) */
+.SharedInteractiveStyles-module-scss-module__Kps8sq__container {
+  cursor: var(--cursor-interactive);
+  isolation: isolate;
+}
+
+.SharedInteractiveStyles-module-scss-module__Kps8sq__container:hover .SharedInteractiveStyles-module-scss-module__Kps8sq__element.SharedInteractiveStyles-module-scss-module__Kps8sq__checked .SharedInteractiveStyles-module-scss-module__Kps8sq__element:before, .SharedInteractiveStyles-module-scss-module__Kps8sq__container:focus .SharedInteractiveStyles-module-scss-module__Kps8sq__element.SharedInteractiveStyles-module-scss-module__Kps8sq__checked .SharedInteractiveStyles-module-scss-module__Kps8sq__element:before {
+  display: none;
+}
+
+.SharedInteractiveStyles-module-scss-module__Kps8sq__element {
+  box-shadow: inset 0 0 0 var(--solid-inset-color-brand);
+  border-color: var(--solid-border-color-neutral);
+  border-style: solid;
+  border-width: 1px;
+  width: var(--static-space-20);
+  height: var(--static-space-20);
+  min-width: var(--static-space-20);
+  min-height: var(--static-space-20);
+  transition: var(--transition-micro-medium);
+  background-color: var(--background-surface);
+  outline: none;
+}
+
+.SharedInteractiveStyles-module-scss-module__Kps8sq__element.SharedInteractiveStyles-module-scss-module__Kps8sq__checked {
+  box-shadow: inset 0 var(--solid-inset-distance) var(--solid-inset-size) var(--solid-inset-color-brand);
+  background-color: var(--brand-solid-medium);
+  border-color: var(--solid-border-color-brand);
+}
+
+.SharedInteractiveStyles-module-scss-module__Kps8sq__disabled .SharedInteractiveStyles-module-scss-module__Kps8sq__element {
+  opacity: .6;
+}
+
+.SharedInteractiveStyles-module-scss-module__Kps8sq__disabled .SharedInteractiveStyles-module-scss-module__Kps8sq__element:before {
+  display: none;
+}
+
+.SharedInteractiveStyles-module-scss-module__Kps8sq__container:hover .SharedInteractiveStyles-module-scss-module__Kps8sq__element:before, .SharedInteractiveStyles-module-scss-module__Kps8sq__element:focus-within:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: var(--static-space-40);
+  height: var(--static-space-40);
+  background-color: var(--brand-alpha-medium);
+  border-radius: var(--radius-full);
+  z-index: -1;
+  animation: .2s forwards SharedInteractiveStyles-module-scss-module__Kps8sq__scaleInCenter;
+}
+
+@keyframes SharedInteractiveStyles-module-scss-module__Kps8sq__scaleInCenter {
+  from {
+    transform: translate(-50%, -50%)scale(0);
+  }
+
+  to {
+    transform: translate(-50%, -50%)scale(1);
+  }
+}
+
+.SharedInteractiveStyles-module-scss-module__Kps8sq__icon {
+  animation: .2s forwards SharedInteractiveStyles-module-scss-module__Kps8sq__scaleIn;
+  animation-delay: .1s;
+  transform: scale(0);
+}
+
+@keyframes SharedInteractiveStyles-module-scss-module__Kps8sq__scaleIn {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.SharedInteractiveStyles-module-scss-module__Kps8sq__hidden {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.SharedInteractiveStyles-module-scss-module__Kps8sq__indeterminate {
+  background: var(--brand-on-solid-strong);
+  width: var(--static-space-12);
+  height: var(--static-space-2);
+}
+
+/*# sourceMappingURL=src_once-ui_components_SharedInteractiveStyles_module_scss_module_b52d8e.css.map*/

@@ -1,0 +1,148 @@
+/* [project]/src/once-ui/components/Input.module.scss.module.css [app-client] (css) */
+.Input-module-scss-module__gIf6KW__base {
+  -webkit-backdrop-filter: var(--backdrop-filter);
+  backdrop-filter: var(--backdrop-filter);
+  min-height: var(--static-space-56);
+}
+
+.Input-module-scss-module__gIf6KW__base.Input-module-scss-module__gIf6KW__focused, .Input-module-scss-module__gIf6KW__base.Input-module-scss-module__gIf6KW__filled {
+  background-color: var(--neutral-background-strong);
+  border-color: var(--neutral-border-medium);
+}
+
+.Input-module-scss-module__gIf6KW__base:focus-within, .Input-module-scss-module__gIf6KW__base:hover:not(:has(.Input-module-scss-module__gIf6KW__suffix:hover)) {
+  background-color: var(--neutral-alpha-medium);
+}
+
+.Input-module-scss-module__gIf6KW__base:has(.Input-module-scss-module__gIf6KW__labelAsPlaceholder) {
+  min-height: var(--static-space-48);
+}
+
+.Input-module-scss-module__gIf6KW__textareaBase:after {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: var(--static-space-32);
+  height: var(--static-space-32);
+  border: 1px solid var(--neutral-border-strong);
+  transform: translateX(50%)translateY(50%)rotate(45deg);
+  background-color: var(--neutral-alpha-weak);
+}
+
+.Input-module-scss-module__gIf6KW__textareaBase ::-webkit-resizer {
+  display: none;
+}
+
+.Input-module-scss-module__gIf6KW__label {
+  position: absolute;
+  left: var(--static-space-16);
+  transition: transform .3s, top .3s, left .3s;
+  color: var(--neutral-on-background-medium);
+  pointer-events: none;
+  transform-origin: 0;
+}
+
+.Input-module-scss-module__gIf6KW__inputLabel {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.Input-module-scss-module__gIf6KW__inputLabel.Input-module-scss-module__gIf6KW__floating {
+  transform: scale(.75);
+}
+
+.Input-module-scss-module__gIf6KW__textareaLabel {
+  top: var(--static-space-16);
+}
+
+.Input-module-scss-module__gIf6KW__textareaLabel.Input-module-scss-module__gIf6KW__floating {
+  transform: scale(.75) translateY(calc(-1 * var(--static-space-16)));
+}
+
+.Input-module-scss-module__gIf6KW__s {
+  min-height: var(--static-space-48);
+}
+
+.Input-module-scss-module__gIf6KW__s:has(.Input-module-scss-module__gIf6KW__labelAsPlaceholder) {
+  min-height: var(--static-space-40);
+}
+
+.Input-module-scss-module__gIf6KW__s .Input-module-scss-module__gIf6KW__label.Input-module-scss-module__gIf6KW__floating {
+  top: var(--static-space-4);
+}
+
+.Input-module-scss-module__gIf6KW__m .Input-module-scss-module__gIf6KW__label.Input-module-scss-module__gIf6KW__floating {
+  top: calc(var(--static-space-8)  - var(--static-space-2));
+}
+
+.Input-module-scss-module__gIf6KW__input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: none;
+  color: var(--neutral-on-background-strong);
+  padding: 0 var(--static-space-16);
+  outline: none;
+}
+
+.Input-module-scss-module__gIf6KW__input.Input-module-scss-module__gIf6KW__labelAsPlaceholder {
+  padding-top: 0;
+}
+
+.Input-module-scss-module__gIf6KW__input:not(.Input-module-scss-module__gIf6KW__labelAsPlaceholder) {
+  padding-top: var(--static-space-16);
+}
+
+.Input-module-scss-module__gIf6KW__input.Input-module-scss-module__gIf6KW__labelAsPlaceholder.Input-module-scss-module__gIf6KW__hasChildren {
+  padding-top: var(--static-space-16);
+}
+
+.Input-module-scss-module__gIf6KW__input::-moz-placeholder {
+  color: var(--neutral-on-background-weak);
+}
+
+.Input-module-scss-module__gIf6KW__input::placeholder {
+  color: var(--neutral-on-background-weak);
+}
+
+.Input-module-scss-module__gIf6KW__input:disabled {
+  background-color: var(--neutral-solid-strong);
+  color: var(--neutral-on-solid-weak);
+}
+
+.Input-module-scss-module__gIf6KW__input:-webkit-autofill {
+  background-color: var(--static-transparent) !important;
+  -webkit-box-shadow: 0 0 0 var(--static-space-32) var(--neutral-background-medium) inset !important;
+  -webkit-text-fill-color: var(--neutral-on-background-strong) !important;
+}
+
+.Input-module-scss-module__gIf6KW__input:autofill, .Input-module-scss-module__gIf6KW__input:-webkit-autofill {
+  background-color: var(--static-transparent) !important;
+  -webkit-box-shadow: 0 0 0 var(--static-space-32) var(--neutral-background-medium) inset !important;
+  -webkit-text-fill-color: var(--neutral-on-background-strong) !important;
+}
+
+.Input-module-scss-module__gIf6KW__error .Input-module-scss-module__gIf6KW__base {
+  background-color: var(--danger-background-medium);
+  border-color: var(--danger-border-medium);
+}
+
+.Input-module-scss-module__gIf6KW__error .Input-module-scss-module__gIf6KW__input, .Input-module-scss-module__gIf6KW__error .Input-module-scss-module__gIf6KW__prefix, .Input-module-scss-module__gIf6KW__error .Input-module-scss-module__gIf6KW__suffix {
+  color: var(--danger-on-background-medium);
+}
+
+.Input-module-scss-module__gIf6KW__error .Input-module-scss-module__gIf6KW__label {
+  color: var(--danger-on-background-weak);
+}
+
+.Input-module-scss-module__gIf6KW__prefix, .Input-module-scss-module__gIf6KW__suffix {
+  align-self: center;
+}
+
+.Input-module-scss-module__gIf6KW__input[type="color"] {
+  opacity: 0;
+}
+
+/*# sourceMappingURL=src_once-ui_components_Input_module_scss_module_b52d8e.css.map*/

@@ -1,0 +1,35 @@
+/* [project]/src/once-ui/components/Option.module.scss.module.css [app-client] (css) */
+.Option-module-scss-module__VaiDSa__option {
+  border-color: var(--static-transparent);
+}
+
+.Option-module-scss-module__VaiDSa__option:hover, .Option-module-scss-module__VaiDSa__option:focus {
+  background: var(--neutral-alpha-weak);
+  border-color: var(--neutral-alpha-medium);
+}
+
+.Option-module-scss-module__VaiDSa__option.Option-module-scss-module__VaiDSa__selected {
+  background-color: var(--neutral-alpha-medium);
+  border-color: var(--neutral-alpha-medium);
+}
+
+.Option-module-scss-module__VaiDSa__option.Option-module-scss-module__VaiDSa__highlighted {
+  background: var(--neutral-alpha-weak);
+  border-color: var(--neutral-alpha-medium);
+}
+
+.Option-module-scss-module__VaiDSa__option.Option-module-scss-module__VaiDSa__danger {
+  color: var(--danger-on-background-medium);
+}
+
+.Option-module-scss-module__VaiDSa__option.Option-module-scss-module__VaiDSa__danger:hover, .Option-module-scss-module__VaiDSa__option.Option-module-scss-module__VaiDSa__danger:focus {
+  background-color: var(--danger-solid-strong);
+  color: var(--danger-on-solid-strong);
+  border-color: var(--danger-border-strong);
+}
+
+.Option-module-scss-module__VaiDSa__focused {
+  background-color: var(--neutral-background-strong);
+}
+
+/*# sourceMappingURL=src_once-ui_components_Option_module_scss_module_b52d8e.css.map*/

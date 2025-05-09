@@ -1,0 +1,114 @@
+/* [project]/src/once-ui/components/Button.module.scss.module.css [app-client] (css) */
+.Button-module-scss-module__0_cfXW__button {
+  display: flex;
+  align-items: center;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  padding: 0;
+  white-space: nowrap;
+  text-decoration: none;
+  -webkit-tap-highlight-color: #0000;
+  transition: var(--transition-micro-medium);
+}
+
+.Button-module-scss-module__0_cfXW__button:hover, .Button-module-scss-module__0_cfXW__button:focus {
+  z-index: 1;
+}
+
+.Button-module-scss-module__0_cfXW__button:disabled {
+  box-shadow: none;
+  background: var(--neutral-solid-weak);
+  color: var(--neutral-on-solid-weak);
+  border: none;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.Button-module-scss-module__0_cfXW__primary {
+  box-shadow: inset 0 var(--solid-inset-distance) var(--solid-inset-size) var(--solid-inset-color-brand);
+  background: var(--brand-solid-medium);
+  border-style: solid;
+  border-width: var(--solid-border-width);
+  border-color: var(--solid-border-color-brand);
+  color: var(--brand-on-solid-strong);
+}
+
+.Button-module-scss-module__0_cfXW__primary:hover, .Button-module-scss-module__0_cfXW__primary:focus {
+  background: var(--brand-solid-strong);
+}
+
+.Button-module-scss-module__0_cfXW__secondary {
+  box-shadow: inset 0 var(--solid-inset-distance) var(--solid-inset-size) var(--solid-inset-color-neutral);
+  background: var(--neutral-background-medium);
+  border-style: solid;
+  border: 1px solid var(--neutral-border-medium);
+  color: var(--neutral-on-background-strong);
+}
+
+.Button-module-scss-module__0_cfXW__secondary:hover, .Button-module-scss-module__0_cfXW__secondary:focus {
+  background: var(--neutral-background-strong);
+  border-color: var(--neutral-border-strong);
+}
+
+.Button-module-scss-module__0_cfXW__tertiary {
+  background: var(--static-transparent);
+  color: var(--neutral-on-background-strong);
+  border: 1px solid var(--static-transparent);
+}
+
+.Button-module-scss-module__0_cfXW__tertiary:hover, .Button-module-scss-module__0_cfXW__tertiary:focus {
+  border: 1px solid var(--neutral-border-medium);
+}
+
+.Button-module-scss-module__0_cfXW__tertiary:disabled {
+  background: var(--static-transparent);
+  color: var(--neutral-on-background-weak);
+}
+
+.Button-module-scss-module__0_cfXW__ghost {
+  border: none;
+  background: var(--static-transparent);
+  color: var(--neutral-on-background-medium);
+}
+
+.Button-module-scss-module__0_cfXW__ghost:hover, .Button-module-scss-module__0_cfXW__ghost:focus {
+  color: var(--neutral-on-background-strong);
+}
+
+.Button-module-scss-module__0_cfXW__danger {
+  box-shadow: inset 0 var(--solid-inset-distance) var(--solid-inset-size) var(--solid-inset-color-danger);
+  background: var(--danger-solid-medium);
+  border-style: solid;
+  border-width: var(--solid-border-width);
+  border-color: var(--solid-border-color-danger);
+  color: var(--danger-on-solid-strong);
+}
+
+.Button-module-scss-module__0_cfXW__danger:hover, .Button-module-scss-module__0_cfXW__danger:focus {
+  background: var(--danger-solid-strong);
+}
+
+.Button-module-scss-module__0_cfXW__s {
+  padding: var(--static-space-4) var(--static-space-8);
+  min-height: var(--static-space-32);
+  height: var(--static-space-32);
+  gap: var(--static-space-4);
+}
+
+.Button-module-scss-module__0_cfXW__m {
+  padding: var(--static-space-8) var(--static-space-12);
+  min-height: var(--static-space-40);
+  height: var(--static-space-40);
+  gap: var(--static-space-4);
+}
+
+.Button-module-scss-module__0_cfXW__l {
+  padding: var(--static-space-12) var(--static-space-20);
+  min-height: var(--static-space-48);
+  height: var(--static-space-48);
+  gap: var(--static-space-8);
+}
+
+/*# sourceMappingURL=src_once-ui_components_Button_module_scss_module_b52d8e.css.map*/

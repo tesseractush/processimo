@@ -1,0 +1,99 @@
+/* [project]/src/once-ui/components/Switch.module.scss.module.css [app-client] (css) */
+.Switch-module-scss-module__uXSjba__container {
+  cursor: var(--cursor-interactive);
+  isolation: isolate;
+}
+
+.Switch-module-scss-module__uXSjba__container:active .Switch-module-scss-module__uXSjba__element {
+  transform: translateY(-50%)scaleX(1.2);
+}
+
+.Switch-module-scss-module__uXSjba__container:hover .Switch-module-scss-module__uXSjba__switch {
+  background-color: var(--neutral-solid-strong);
+}
+
+.Switch-module-scss-module__uXSjba__container:hover .Switch-module-scss-module__uXSjba__switch.Switch-module-scss-module__uXSjba__checked {
+  background-color: var(--brand-solid-strong);
+}
+
+.Switch-module-scss-module__uXSjba__container:hover .Switch-module-scss-module__uXSjba__switch.Switch-module-scss-module__uXSjba__checked .Switch-module-scss-module__uXSjba__element:before {
+  display: none;
+}
+
+.Switch-module-scss-module__uXSjba__reverse {
+  flex-direction: row-reverse;
+}
+
+.Switch-module-scss-module__uXSjba__switch {
+  box-shadow: inset 0 0 0 var(--solid-inset-color-brand);
+  border-color: var(--solid-border-color-neutral);
+  border-style: solid;
+  border-width: var(--solid-border-width);
+  width: var(--static-space-40);
+  min-width: var(--static-space-40);
+  height: var(--static-space-24);
+  border-radius: var(--radius-l-nest-4);
+  background-color: var(--neutral-solid-medium);
+  position: relative;
+  transition: var(--transition-micro-medium);
+}
+
+.Switch-module-scss-module__uXSjba__switch.Switch-module-scss-module__uXSjba__checked {
+  box-shadow: inset 0 var(--solid-inset-distance) var(--solid-inset-size) var(--solid-inset-color-brand);
+  background-color: var(--brand-solid-medium);
+  border-color: var(--solid-border-color-brand);
+}
+
+.Switch-module-scss-module__uXSjba__switch.Switch-module-scss-module__uXSjba__checked .Switch-module-scss-module__uXSjba__element {
+  left: calc(100% - var(--static-space-20));
+  transform-origin: 100%;
+}
+
+.Switch-module-scss-module__uXSjba__element {
+  z-index: 1;
+  transform-origin: 0;
+  width: var(--static-space-16);
+  height: var(--static-space-16);
+  border-radius: var(--radius-l);
+  background-color: var(--brand-on-solid-strong);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: var(--static-space-4);
+  transition: left .3s, transform .3s;
+  outline: none;
+}
+
+.Switch-module-scss-module__uXSjba__disabled .Switch-module-scss-module__uXSjba__switch {
+  opacity: .4;
+}
+
+.Switch-module-scss-module__uXSjba__disabled .Switch-module-scss-module__uXSjba__element:before {
+  display: none !important;
+}
+
+.Switch-module-scss-module__uXSjba__container:hover .Switch-module-scss-module__uXSjba__element:before, .Switch-module-scss-module__uXSjba__element:focus-within:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: var(--static-space-40);
+  height: var(--static-space-40);
+  background-color: var(--brand-alpha-medium);
+  border-radius: var(--radius-full);
+  z-index: -1;
+  animation: .2s forwards Switch-module-scss-module__uXSjba__scaleInCenter;
+}
+
+@keyframes Switch-module-scss-module__uXSjba__scaleInCenter {
+  from {
+    transform: translate(-50%, -50%)scale(0);
+  }
+
+  to {
+    transform: translate(-50%, -50%)scale(1);
+  }
+}
+
+/*# sourceMappingURL=src_once-ui_components_Switch_module_scss_module_b52d8e.css.map*/

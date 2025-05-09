@@ -1,0 +1,42 @@
+/* [project]/src/once-ui/components/Chip.module.scss.module.css [app-client] (css) */
+.Chip-module-scss-module__X0NaDa__chip {
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.Chip-module-scss-module__X0NaDa__chip.Chip-module-scss-module__X0NaDa__selected {
+  background: var(--brand-alpha-medium);
+  color: var(--brand-on-background-medium);
+}
+
+.Chip-module-scss-module__X0NaDa__chip.Chip-module-scss-module__X0NaDa__selected:hover, .Chip-module-scss-module__X0NaDa__chip.Chip-module-scss-module__X0NaDa__selected:focus {
+  background: var(--brand-alpha-medium);
+}
+
+.Chip-module-scss-module__X0NaDa__chip.Chip-module-scss-module__X0NaDa__selected:active {
+  background: var(--brand-alpha-weak);
+  color: var(--brand-on-background-weak);
+}
+
+.Chip-module-scss-module__X0NaDa__chip.Chip-module-scss-module__X0NaDa__unselected {
+  background: var(--neutral-alpha-weak);
+  color: var(--neutral-on-background-medium);
+}
+
+.Chip-module-scss-module__X0NaDa__chip.Chip-module-scss-module__X0NaDa__unselected:hover, .Chip-module-scss-module__X0NaDa__chip.Chip-module-scss-module__X0NaDa__unselected:focus {
+  background: var(--neutral-alpha-medium);
+}
+
+.Chip-module-scss-module__X0NaDa__chip.Chip-module-scss-module__X0NaDa__unselected:active {
+  background: var(--neutral-alpha-weak);
+  color: var(--neutral-on-background-weak);
+}
+
+.Chip-module-scss-module__X0NaDa__chip:disabled {
+  background: var(--neutral-solid-weak);
+  cursor: not-allowed;
+}
+
+/*# sourceMappingURL=src_once-ui_components_Chip_module_scss_module_b52d8e.css.map*/

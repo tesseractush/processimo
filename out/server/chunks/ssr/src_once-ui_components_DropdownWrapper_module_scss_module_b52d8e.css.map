@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/once-ui/components/DropdownWrapper.module.scss.module.css"],"sourcesContent":["@keyframes fadeIn{from{opacity:0;transform:scale(0.9)}to{opacity:1;transform:scale(1)}}.fadeIn{transform-origin:top right;animation:fadeIn var(--transition-duration-micro-medium) var(--transition-eased)}"],"names":[],"mappings":"AAAA;;;;;;;;;;;;AAAuF"}},
+    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -1,0 +1,28 @@
+/* [project]/src/once-ui/components/NavIcon.module.scss.module.css [app-client] (css) */
+.NavIcon-module-scss-module__8vGHpG__line {
+  background-color: var(--neutral-on-background-strong);
+  height: 1px;
+  width: var(--static-space-24);
+  transition: transform .3s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.NavIcon-module-scss-module__8vGHpG__line:first-child {
+  transform: translateX(-50%) translateY(calc(-1 * var(--static-space-4)));
+}
+
+.NavIcon-module-scss-module__8vGHpG__line:last-child {
+  transform: translateX(-50%) translateY(var(--static-space-4));
+}
+
+.NavIcon-module-scss-module__8vGHpG__active:first-child {
+  transform: translateX(-50%)translateY(0)rotate(45deg);
+}
+
+.NavIcon-module-scss-module__8vGHpG__active:last-child {
+  transform: translateX(-50%)translateY(0)rotate(-45deg);
+}
+
+/*# sourceMappingURL=src_once-ui_components_NavIcon_module_scss_module_b52d8e.css.map*/

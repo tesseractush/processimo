@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/once-ui/components/NumberInput.module.scss.module.css"],"sourcesContent":[".numberInput input[type=number]::-webkit-inner-spin-button,.numberInput input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}.numberInput input[type=number]{-moz-appearance:textfield}.stepper{pointer-events:visibleFill}.stepper:hover{background-color:var(--neutral-alpha-medium)}"],"names":[],"mappings":"AAAA;;;;;AAAuJ;;;;AAA0D;;;;AAAoC"}},
+    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

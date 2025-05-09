@@ -1,0 +1,74 @@
+/* [project]/src/once-ui/components/Spinner.module.scss.module.css [app-client] (css) */
+@keyframes Spinner-module-scss-module__hP9PFa__spin {
+  0% {
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(.55, .2, .68, .53);
+  }
+
+  100% {
+    transform: rotate(360deg);
+    animation-timing-function: cubic-bezier(.55, .2, .68, .53);
+  }
+}
+
+.Spinner-module-scss-module__hP9PFa__spinner {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  animation: 1.5s infinite Spinner-module-scss-module__hP9PFa__spin;
+  border-style: solid;
+  border-color: #0000;
+  border-top-color: currentColor;
+}
+
+.Spinner-module-scss-module__hP9PFa__xs {
+  width: var(--static-space-16);
+  height: var(--static-space-16);
+  padding: 2px;
+}
+
+.Spinner-module-scss-module__hP9PFa__xs .Spinner-module-scss-module__hP9PFa__spinner {
+  border-width: 2px;
+}
+
+.Spinner-module-scss-module__hP9PFa__s {
+  width: var(--static-space-20);
+  height: var(--static-space-20);
+  padding: 2px;
+}
+
+.Spinner-module-scss-module__hP9PFa__s .Spinner-module-scss-module__hP9PFa__spinner {
+  border-width: 2px;
+}
+
+.Spinner-module-scss-module__hP9PFa__m {
+  width: var(--static-space-24);
+  height: var(--static-space-24);
+  padding: 3px;
+}
+
+.Spinner-module-scss-module__hP9PFa__m .Spinner-module-scss-module__hP9PFa__spinner {
+  border-width: 2px;
+}
+
+.Spinner-module-scss-module__hP9PFa__l {
+  width: var(--static-space-32);
+  height: var(--static-space-32);
+  padding: 4px;
+}
+
+.Spinner-module-scss-module__hP9PFa__l .Spinner-module-scss-module__hP9PFa__spinner {
+  border-width: 3px;
+}
+
+.Spinner-module-scss-module__hP9PFa__xl {
+  width: var(--static-space-40);
+  height: var(--static-space-40);
+  padding: 8px;
+}
+
+.Spinner-module-scss-module__hP9PFa__xl .Spinner-module-scss-module__hP9PFa__spinner {
+  border-width: 3px;
+}
+
+/*# sourceMappingURL=src_once-ui_components_Spinner_module_scss_module_b52d8e.css.map*/

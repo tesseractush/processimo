@@ -1,0 +1,115 @@
+/* [project]/src/once-ui/components/StylePanel.module.scss.module.css [app-client] (css) */
+.StylePanel-module-scss-module__hWhCCa__select {
+  min-width: var(--static-space-40);
+  min-height: var(--static-space-40);
+  border-radius: var(--radius-m-nest-4);
+  border-color: var(--static-transparent);
+  border-width: 1px;
+  border-style: solid;
+  background: var(--static-transparent);
+}
+
+.StylePanel-module-scss-module__hWhCCa__select:hover {
+  background: var(--neutral-alpha-medium);
+  border-color: var(--neutral-alpha-medium);
+}
+
+.StylePanel-module-scss-module__hWhCCa__select.StylePanel-module-scss-module__hWhCCa__selected {
+  background: var(--neutral-alpha-strong);
+  border-color: var(--neutral-alpha-strong);
+}
+
+.StylePanel-module-scss-module__hWhCCa__swatch {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius-m);
+  border-width: 1px;
+  border-style: solid;
+}
+
+.StylePanel-module-scss-module__hWhCCa__slate {
+  background: var(--scheme-slate-500);
+  border-color: var(--scheme-slate-700);
+}
+
+.StylePanel-module-scss-module__hWhCCa__gray {
+  background: var(--scheme-gray-500);
+  border-color: var(--scheme-gray-700);
+}
+
+.StylePanel-module-scss-module__hWhCCa__sand {
+  background: var(--scheme-sand-500);
+  border-color: var(--scheme-sand-700);
+}
+
+.StylePanel-module-scss-module__hWhCCa__blue {
+  background: var(--scheme-blue-500);
+  border-color: var(--scheme-blue-700);
+}
+
+.StylePanel-module-scss-module__hWhCCa__cyan {
+  background: var(--scheme-cyan-500);
+  border-color: var(--scheme-cyan-700);
+}
+
+.StylePanel-module-scss-module__hWhCCa__indigo {
+  background: var(--scheme-indigo-500);
+  border-color: var(--scheme-indigo-700);
+}
+
+.StylePanel-module-scss-module__hWhCCa__violet {
+  background: var(--scheme-violet-500);
+  border-color: var(--scheme-violet-700);
+}
+
+.StylePanel-module-scss-module__hWhCCa__magenta {
+  background: var(--scheme-magenta-500);
+  border-color: var(--scheme-magenta-700);
+}
+
+.StylePanel-module-scss-module__hWhCCa__pink {
+  background: var(--scheme-pink-500);
+  border-color: var(--scheme-pink-700);
+}
+
+.StylePanel-module-scss-module__hWhCCa__yellow {
+  background: var(--scheme-yellow-500);
+  border-color: var(--scheme-yellow-700);
+}
+
+.StylePanel-module-scss-module__hWhCCa__orange {
+  background: var(--scheme-orange-500);
+  border-color: var(--scheme-orange-700);
+}
+
+.StylePanel-module-scss-module__hWhCCa__red {
+  background: var(--scheme-red-500);
+  border-color: var(--scheme-red-700);
+}
+
+.StylePanel-module-scss-module__hWhCCa__moss {
+  background: var(--scheme-moss-500);
+  border-color: var(--scheme-moss-700);
+}
+
+.StylePanel-module-scss-module__hWhCCa__green {
+  background: var(--scheme-green-500);
+  border-color: var(--scheme-green-700);
+}
+
+.StylePanel-module-scss-module__hWhCCa__emerald {
+  background: var(--scheme-emerald-500);
+  border-color: var(--scheme-emerald-700);
+}
+
+.StylePanel-module-scss-module__hWhCCa__aqua {
+  background: var(--scheme-aqua-500);
+  border-color: var(--scheme-aqua-700);
+}
+
+.StylePanel-module-scss-module__hWhCCa__neutral {
+  background: var(--neutral-solid-medium);
+  border-color: var(--neutral-alpha-strong);
+}
+
+/*# sourceMappingURL=src_once-ui_components_StylePanel_module_scss_module_b52d8e.css.map*/

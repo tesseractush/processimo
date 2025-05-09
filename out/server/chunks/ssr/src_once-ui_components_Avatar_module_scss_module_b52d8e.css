@@ -1,0 +1,63 @@
+/* [project]/src/once-ui/components/Avatar.module.scss.module.css [app-client] (css) */
+.Avatar-module-scss-module__2IbJlW__xs {
+  width: var(--static-space-20);
+  height: var(--static-space-20);
+  min-width: var(--static-space-20);
+  min-height: var(--static-space-20);
+}
+
+.Avatar-module-scss-module__2IbJlW__s {
+  width: var(--static-space-24);
+  height: var(--static-space-24);
+  min-width: var(--static-space-24);
+  min-height: var(--static-space-24);
+}
+
+.Avatar-module-scss-module__2IbJlW__m {
+  width: var(--static-space-32);
+  height: var(--static-space-32);
+  min-width: var(--static-space-32);
+  min-height: var(--static-space-32);
+}
+
+.Avatar-module-scss-module__2IbJlW__l {
+  width: var(--static-space-48);
+  height: var(--static-space-48);
+  min-width: var(--static-space-48);
+  min-height: var(--static-space-48);
+}
+
+.Avatar-module-scss-module__2IbJlW__xl {
+  width: var(--static-space-160);
+  height: var(--static-space-160);
+  min-width: var(--static-space-160);
+  min-height: var(--static-space-160);
+}
+
+.Avatar-module-scss-module__2IbJlW__xl .Avatar-module-scss-module__2IbJlW__position {
+  bottom: var(--static-space-16);
+  right: var(--static-space-16);
+}
+
+.Avatar-module-scss-module__2IbJlW__value {
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.Avatar-module-scss-module__2IbJlW__indicator {
+  box-sizing: content-box;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translateX(var(--static-space-2)) translateY(var(--static-space-2));
+}
+
+.Avatar-module-scss-module__2IbJlW__image {
+  -o-object-position: center;
+  object-position: center;
+}
+
+/*# sourceMappingURL=src_once-ui_components_Avatar_module_scss_module_b52d8e.css.map*/

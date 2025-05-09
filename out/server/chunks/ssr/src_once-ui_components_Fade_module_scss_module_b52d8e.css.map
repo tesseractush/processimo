@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/once-ui/components/Fade.module.scss.module.css"],"sourcesContent":[".mask{-webkit-backdrop-filter:blur(0.5rem);backdrop-filter:blur(0.5rem);background:linear-gradient(var(--gradient-direction), var(--base-color), transparent);-webkit-mask-image:linear-gradient(var(--gradient-direction), black 20%, transparent 100%);mask-image:linear-gradient(var(--gradient-direction), black 20%, transparent 100%);-webkit-mask-size:100% 100%;mask-size:100% 100%}"],"names":[],"mappings":"AAAA"}},
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

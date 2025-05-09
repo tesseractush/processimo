@@ -1,0 +1,38 @@
+/* [project]/src/once-ui/components/Scroller.module.scss.module.css [app-client] (css) */
+.Scroller-module-scss-module__UoRRFq__container {
+  isolation: isolate;
+}
+
+.Scroller-module-scss-module__UoRRFq__scroller {
+  scrollbar-width: none;
+  isolation: isolate;
+}
+
+.Scroller-module-scss-module__UoRRFq__scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.Scroller-module-scss-module__UoRRFq__row {
+  overflow-x: auto;
+}
+
+.Scroller-module-scss-module__UoRRFq__column {
+  overflow-y: auto;
+}
+
+.Scroller-module-scss-module__UoRRFq__scrollButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.Scroller-module-scss-module__UoRRFq__scrollButtonPrev {
+  left: var(--static-space-4);
+}
+
+.Scroller-module-scss-module__UoRRFq__scrollButtonNext {
+  right: var(--static-space-4);
+}
+
+/*# sourceMappingURL=src_once-ui_components_Scroller_module_scss_module_b52d8e.css.map*/

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/once-ui/components/Scroller.module.scss.module.css"],"sourcesContent":[".container{isolation:isolate}.scroller{scrollbar-width:none;isolation:isolate}.scroller::-webkit-scrollbar{display:none}.row{overflow-x:auto}.column{overflow-y:auto}.scrollButton{position:absolute;top:50%;transform:translateY(-50%);z-index:2}.scrollButtonPrev{left:var(--static-space-4)}.scrollButtonNext{right:var(--static-space-4)}"],"names":[],"mappings":"AAAA;;;;AAA6B;;;;;AAAiD;;;;AAA0C;;;;AAAqB;;;;AAAwB;;;;;;;AAA6E;;;;AAA6C"}},
+    {"offset": {"line": 36, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

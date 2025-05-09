@@ -1,0 +1,21 @@
+/* [project]/src/once-ui/components/StyleOverlay.module.scss.module.css [app-client] (css) */
+.StyleOverlay-module-scss-module__DeJKCW__panel {
+  visibility: hidden;
+  opacity: 0;
+  z-index: -1;
+  transform: scale(.2);
+  transform-origin: 100% 0;
+}
+
+.StyleOverlay-module-scss-module__DeJKCW__panel.StyleOverlay-module-scss-module__DeJKCW__open {
+  transform: scale(1);
+  visibility: visible;
+  opacity: 1;
+}
+
+.StyleOverlay-module-scss-module__DeJKCW__panel:not(.StyleOverlay-module-scss-module__DeJKCW__open) {
+  z-index: -1;
+  filter: blur(.25rem);
+}
+
+/*# sourceMappingURL=src_once-ui_components_StyleOverlay_module_scss_module_b52d8e.css.map*/

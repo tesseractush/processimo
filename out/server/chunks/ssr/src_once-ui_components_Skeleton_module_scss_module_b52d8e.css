@@ -1,0 +1,120 @@
+/* [project]/src/once-ui/components/Skeleton.module.scss.module.css [app-client] (css) */
+@keyframes Skeleton-module-scss-module__O9J6-G__skeleton-loading {
+  0% {
+    background-color: var(--neutral-background-strong);
+  }
+
+  50% {
+    background-color: var(--neutral-background-medium);
+  }
+
+  100% {
+    background-color: var(--neutral-background-strong);
+  }
+}
+
+.Skeleton-module-scss-module__O9J6-G__delay-1 {
+  animation-delay: .1s;
+}
+
+.Skeleton-module-scss-module__O9J6-G__delay-2 {
+  animation-delay: .2s;
+}
+
+.Skeleton-module-scss-module__O9J6-G__delay-3 {
+  animation-delay: .3s;
+}
+
+.Skeleton-module-scss-module__O9J6-G__delay-4 {
+  animation-delay: .4s;
+}
+
+.Skeleton-module-scss-module__O9J6-G__delay-5 {
+  animation-delay: .5s;
+}
+
+.Skeleton-module-scss-module__O9J6-G__delay-6 {
+  animation-delay: .6s;
+}
+
+.Skeleton-module-scss-module__O9J6-G__skeleton {
+  animation-name: Skeleton-module-scss-module__O9J6-G__skeleton-loading;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+.Skeleton-module-scss-module__O9J6-G__skeleton.Skeleton-module-scss-module__O9J6-G__block {
+  width: 100%;
+  height: 100%;
+}
+
+.Skeleton-module-scss-module__O9J6-G__skeleton.Skeleton-module-scss-module__O9J6-G__line.Skeleton-module-scss-module__O9J6-G__h-xs {
+  height: var(--static-space-8);
+}
+
+.Skeleton-module-scss-module__O9J6-G__skeleton.Skeleton-module-scss-module__O9J6-G__line.Skeleton-module-scss-module__O9J6-G__h-s {
+  height: var(--static-space-12);
+}
+
+.Skeleton-module-scss-module__O9J6-G__skeleton.Skeleton-module-scss-module__O9J6-G__line.Skeleton-module-scss-module__O9J6-G__h-m {
+  height: var(--static-space-16);
+}
+
+.Skeleton-module-scss-module__O9J6-G__skeleton.Skeleton-module-scss-module__O9J6-G__line.Skeleton-module-scss-module__O9J6-G__h-l {
+  height: var(--static-space-20);
+}
+
+.Skeleton-module-scss-module__O9J6-G__skeleton.Skeleton-module-scss-module__O9J6-G__line.Skeleton-module-scss-module__O9J6-G__h-xl {
+  height: var(--static-space-24);
+}
+
+.Skeleton-module-scss-module__O9J6-G__skeleton.Skeleton-module-scss-module__O9J6-G__line.Skeleton-module-scss-module__O9J6-G__w-xs {
+  width: 25%;
+}
+
+.Skeleton-module-scss-module__O9J6-G__skeleton.Skeleton-module-scss-module__O9J6-G__line.Skeleton-module-scss-module__O9J6-G__w-s {
+  width: 33%;
+}
+
+.Skeleton-module-scss-module__O9J6-G__skeleton.Skeleton-module-scss-module__O9J6-G__line.Skeleton-module-scss-module__O9J6-G__w-m {
+  width: 50%;
+}
+
+.Skeleton-module-scss-module__O9J6-G__skeleton.Skeleton-module-scss-module__O9J6-G__line.Skeleton-module-scss-module__O9J6-G__w-l {
+  width: 75%;
+}
+
+.Skeleton-module-scss-module__O9J6-G__skeleton.Skeleton-module-scss-module__O9J6-G__line.Skeleton-module-scss-module__O9J6-G__w-xl {
+  width: 100%;
+}
+
+.Skeleton-module-scss-module__O9J6-G__skeleton.Skeleton-module-scss-module__O9J6-G__circle {
+  border-radius: var(--radius-full);
+}
+
+.Skeleton-module-scss-module__O9J6-G__skeleton.Skeleton-module-scss-module__O9J6-G__circle.Skeleton-module-scss-module__O9J6-G__w-xs {
+  width: var(--static-space-20);
+  height: var(--static-space-20);
+}
+
+.Skeleton-module-scss-module__O9J6-G__skeleton.Skeleton-module-scss-module__O9J6-G__circle.Skeleton-module-scss-module__O9J6-G__w-s {
+  width: var(--static-space-24);
+  height: var(--static-space-24);
+}
+
+.Skeleton-module-scss-module__O9J6-G__skeleton.Skeleton-module-scss-module__O9J6-G__circle.Skeleton-module-scss-module__O9J6-G__w-m {
+  width: var(--static-space-32);
+  height: var(--static-space-32);
+}
+
+.Skeleton-module-scss-module__O9J6-G__skeleton.Skeleton-module-scss-module__O9J6-G__circle.Skeleton-module-scss-module__O9J6-G__w-l {
+  width: var(--static-space-40);
+  height: var(--static-space-40);
+}
+
+.Skeleton-module-scss-module__O9J6-G__skeleton.Skeleton-module-scss-module__O9J6-G__circle.Skeleton-module-scss-module__O9J6-G__w-xl {
+  width: var(--static-space-160);
+  height: var(--static-space-160);
+}
+
+/*# sourceMappingURL=src_once-ui_components_Skeleton_module_scss_module_b52d8e.css.map*/

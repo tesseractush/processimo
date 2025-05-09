@@ -1,0 +1,184 @@
+/* [project]/src/once-ui/components/DatePicker.module.scss.module.css [app-client] (css) */
+.DatePicker-module-scss-module__e_GARq__calendar.DatePicker-module-scss-module__e_GARq__xs {
+  --calendar-padding: var(--static-space-8);
+  --calendar-gap: var(--static-space-4);
+  --calendar-button-size: var(--static-space-24);
+  --calendar-font-size: var(--font-size-xs);
+}
+
+.DatePicker-module-scss-module__e_GARq__calendar.DatePicker-module-scss-module__e_GARq__s {
+  --calendar-padding: var(--static-space-12);
+  --calendar-gap: var(--static-space-8);
+  --calendar-button-size: var(--static-space-28);
+  --calendar-font-size: var(--font-size-s);
+}
+
+.DatePicker-module-scss-module__e_GARq__calendar.DatePicker-module-scss-module__e_GARq__m {
+  --calendar-padding: var(--static-space-16);
+  --calendar-gap: var(--static-space-12);
+  --calendar-button-size: var(--static-space-32);
+  --calendar-font-size: var(--font-size-m);
+}
+
+.DatePicker-module-scss-module__e_GARq__calendar.DatePicker-module-scss-module__e_GARq__l {
+  --calendar-padding: var(--static-space-20);
+  --calendar-gap: var(--static-space-16);
+  --calendar-button-size: var(--static-space-36);
+  --calendar-font-size: var(--font-size-l);
+}
+
+.DatePicker-module-scss-module__e_GARq__calendar.DatePicker-module-scss-module__e_GARq__xl {
+  --calendar-padding: var(--static-space-24);
+  --calendar-gap: var(--static-space-20);
+  --calendar-button-size: var(--static-space-40);
+  --calendar-font-size: var(--font-size-xl);
+}
+
+.DatePicker-module-scss-module__e_GARq__monthButton:hover {
+  transform: scale(1.1);
+  background: var(--neutral-background-medium);
+}
+
+.DatePicker-module-scss-module__e_GARq__monthButton:disabled {
+  opacity: .5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.DatePicker-module-scss-module__e_GARq__dayButton {
+  aspect-ratio: 1;
+  width: var(--calendar-button-size);
+  height: var(--calendar-button-size);
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--calendar-font-size);
+  transition: all .2s ease-in-out;
+  border-radius: var(--radius-m);
+  background-color: #0000;
+  border: .5px solid var(--neutral-background-medium);
+  color: var(--neutral-on-background-weak);
+}
+
+.DatePicker-module-scss-module__e_GARq__dayButton:hover {
+  color: var(--neutral-background-weak);
+  transform: scale(1.1);
+  background: var(--neutral-background-strong);
+}
+
+.DatePicker-module-scss-module__e_GARq__dayButton:active {
+  background-color: var(--brand-background-strong);
+  color: #fff;
+  transform: scale(.95);
+}
+
+.DatePicker-module-scss-module__e_GARq__dayButton:disabled {
+  opacity: .5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.DatePicker-module-scss-module__e_GARq__timeSelector {
+  background: var(--neutral-background-medium);
+  border-radius: var(--radius-m);
+  border: 1px solid var(--neutral-background-medium);
+  padding: var(--calendar-padding);
+  font-size: var(--calendar-font-size);
+}
+
+.DatePicker-module-scss-module__e_GARq__timeSelector:focus-within {
+  border: 1px solid var(--neutral-border-strong);
+}
+
+.DatePicker-module-scss-module__e_GARq__timeInput {
+  width: var(--static-space-40);
+  height: var(--static-space-32);
+  border: 1px solid var(--neutral-border-medium);
+  border-radius: var(--radius-m);
+  background: var(--neutral-background-strong);
+  color: var(--neutral-on-background-strong);
+  text-align: center;
+  font-size: var(--calendar-font-size);
+  outline: none;
+  transition: all .2s ease-in-out;
+}
+
+.DatePicker-module-scss-module__e_GARq__timeInput:focus {
+  border-color: var(--brand-border-medium);
+  box-shadow: 0 0 0 2px var(--brand-alpha-weak);
+}
+
+.DatePicker-module-scss-module__e_GARq__timeInput:invalid {
+  border-color: var(--danger-border-medium);
+}
+
+.DatePicker-module-scss-module__e_GARq__timeInput::-webkit-inner-spin-button, .DatePicker-module-scss-module__e_GARq__timeInput::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.DatePicker-module-scss-module__e_GARq__ampmSelector {
+  min-width: var(--static-space-80);
+  height: var(--static-space-32);
+  font-size: var(--calendar-font-size);
+}
+
+.DatePicker-module-scss-module__e_GARq__ampmSelector button {
+  min-width: var(--static-space-40);
+}
+
+.DatePicker-module-scss-module__e_GARq__monthTransition {
+  transition: transform .3s ease-in-out, opacity .3s ease-in-out;
+}
+
+.DatePicker-module-scss-module__e_GARq__slideLeft {
+  transform: translateX(-20px);
+  opacity: 0;
+}
+
+.DatePicker-module-scss-module__e_GARq__slideRight {
+  transform: translateX(20px);
+  opacity: 0;
+}
+
+.DatePicker-module-scss-module__e_GARq__timeWrapper.DatePicker-module-scss-module__e_GARq__vertical {
+  align-items: flex-start;
+}
+
+.DatePicker-module-scss-module__e_GARq__verticalTimeLabel {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  margin-right: var(--static-space-8);
+}
+
+.DatePicker-module-scss-module__e_GARq__timeSelector.DatePicker-module-scss-module__e_GARq__vertical {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.DatePicker-module-scss-module__e_GARq__ampmSelector {
+  min-width: var(--static-space-80);
+  height: var(--static-space-32);
+  font-size: var(--calendar-font-size);
+}
+
+.DatePicker-module-scss-module__e_GARq__ampmSelector.DatePicker-module-scss-module__e_GARq__vertical {
+  min-width: var(--static-space-32);
+  height: auto;
+}
+
+.DatePicker-module-scss-module__e_GARq__ampmSelector.DatePicker-module-scss-module__e_GARq__vertical button {
+  min-width: var(--static-space-32);
+  height: var(--static-space-40);
+}
+
+.DatePicker-module-scss-module__e_GARq__grid {
+  display: grid;
+}
+
+.DatePicker-module-scss-module__e_GARq__grid > div {
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=src_once-ui_components_DatePicker_module_scss_module_b52d8e.css.map*/

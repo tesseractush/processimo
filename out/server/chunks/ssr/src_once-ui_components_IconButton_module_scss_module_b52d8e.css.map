@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/once-ui/components/IconButton.module.scss.module.css"],"sourcesContent":[".top{bottom:calc(100% + var(--static-space-2));left:50%;transform:translateX(-50%)}.bottom{top:calc(100% + var(--static-space-2));left:50%;transform:translateX(-50%)}.left{right:calc(100% + var(--static-space-2));top:50%;transform:translateY(-50%)}.right{left:calc(100% + var(--static-space-2));top:50%;transform:translateY(-50%)}.s{min-height:var(--static-space-24);min-width:var(--static-space-24);height:var(--static-space-24);width:var(--static-space-24)}.m{min-height:var(--static-space-32);min-width:var(--static-space-32);height:var(--static-space-32);width:var(--static-space-32)}.l{min-height:var(--static-space-40);min-width:var(--static-space-40);height:var(--static-space-40);width:var(--static-space-40)}"],"names":[],"mappings":"AAAA;;;;;;AAAmF;;;;;;AAAmF;;;;;;AAAkF;;;;;;AAAkF;;;;;;;AAAiI;;;;;;;AAAiI"}},
+    {"offset": {"line": 45, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

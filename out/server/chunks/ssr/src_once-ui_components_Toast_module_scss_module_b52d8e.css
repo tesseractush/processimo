@@ -1,0 +1,14 @@
+/* [project]/src/once-ui/components/Toast.module.scss.module.css [app-client] (css) */
+.Toast-module-scss-module__L80WJq__toast {
+  transition: opacity .3s, transform .3s;
+}
+
+.Toast-module-scss-module__L80WJq__visible {
+  opacity: 1;
+}
+
+.Toast-module-scss-module__L80WJq__hidden {
+  opacity: 0;
+}
+
+/*# sourceMappingURL=src_once-ui_components_Toast_module_scss_module_b52d8e.css.map*/
