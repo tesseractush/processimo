@@ -65,7 +65,7 @@ const Navbar = () => {
         
         <div className="hidden md:flex items-center space-x-4">
           <Link 
-            to="https://app.processimo.com" 
+            to="/prism" 
             className="bg-primary text-primary-foreground px-4 py-2 rounded-md text-sm font-medium hover:bg-primary/90 transition-colors"
           >
             Get Started
@@ -102,7 +102,7 @@ const Navbar = () => {
             ))}
             <div className="pt-4">
               <Link 
-                to="https://app.processimo.com" 
+                to="/prism" 
                 className="bg-primary text-primary-foreground px-4 py-2 rounded-md text-base font-medium text-center hover:bg-primary/90 transition-colors inline-block w-full"
               >
                 Get Started

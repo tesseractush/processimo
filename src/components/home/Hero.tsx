@@ -84,7 +84,7 @@ const Hero = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 animate-slide-up animation-delay-200">
             <Link
-              to="https://app.processimo.com"
+              to="/prism"
               className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium transition-colors hover:bg-primary/90"
             >
               Get Started Free

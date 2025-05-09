@@ -17,6 +17,7 @@ import CareersPage from "./pages/Careers";
 import TermsPage from "./pages/Terms";
 import PrivacyPage from "./pages/Privacy";
 import AboutPage from "./pages/About";
+import PrismPage from "./pages/Prism";
 
 const queryClient = new QueryClient();
 
@@ -37,6 +38,7 @@ const App = () => (
           <Route path="/about" element={<AboutPage />} />
           <Route path="/terms" element={<TermsPage />} />
           <Route path="/privacy" element={<PrivacyPage />} />
+          <Route path="/prism" element={<PrismPage />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/documentation/:slug" element={<DocumentationPost />} />
           <Route path="/guides/:slug" element={<GuidesPost />} />
