@@ -1,57 +1,69 @@
-import { FileText, BookOpen } from "lucide-react";
+import { ArrowRight, Tag } from "lucide-react";
 import Layout from "@/components/layout/Layout";
 import SectionHeading from "@/components/ui/section-heading";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
 
-const ResourcesPage = () => {
+const blogPosts = [
+  {
+    title: "How AI Agents Will Replace 50% of Legal Tasks",
+    tags: ["AI", "LegalTech"],
+    date: "June 2025",
+    link: "#",
+  },
+  {
+    title: "Behind the Mindmap: Visualizing Complex Legal Cases",
+    tags: ["Product", "UX"],
+    date: "May 2025",
+    link: "#",
+  },
+  {
+    title: "The Open-Source Legal OS",
+    tags: ["OSS", "Architecture"],
+    date: "April 2025",
+    link: "#",
+  },
+];
+
+const BlogPage = () => {
   return (
     <Layout>
       <section className="py-24 px-4 md:px-6">
         <div className="container mx-auto">
           <SectionHeading
-            badge="Resources"
-            title="Helpful resources"
-            subtitle="Explore our comprehensive collection of guides, tutorials, and insights to get the most out of Processimo."
+            badge="Blog"
+            title="Legal AI is the New Legal Assistant"
+            subtitle="Insights, research, and product deep dives from the Processimo team."
           />
           
-          <div className="max-w-4xl mx-auto mt-12">
-            {/* Resource cards */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {/* Blogs Card */}
-              <div className="bg-background border border-border rounded-xl p-6 hover:shadow-md transition-all duration-300">
-                <div className="w-12 h-12 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center mb-4">
-                  <FileText className="w-6 h-6 text-blue-600 dark:text-blue-400" />
-                </div>
-                <h3 className="text-xl font-medium mb-2">Blogs</h3>
-                <p className="text-muted-foreground mb-4">
-                  Unlock the Future: Insights, Innovation, and breakthrough in AI and Startups.
-                </p>
-                <a href="https://blog.processimo.com" target="_blank" rel="noopener noreferrer" 
-                  className="inline-flex items-center text-primary hover:underline">
-                  Read blogs
-                </a>
-              </div>
-              
-              {/* Documentation Card */}
-              <div className="bg-background border border-border rounded-xl p-6 hover:shadow-md transition-all duration-300">
-                <div className="w-12 h-12 rounded-full bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center mb-4">
-                  <BookOpen className="w-6 h-6 text-purple-600 dark:text-purple-400" />
-                </div>
-                <h3 className="text-xl font-medium mb-2">Documentation</h3>
-                <p className="text-muted-foreground mb-4">
-                  Explore our Docs: Build, Deploy & Scale with AI with Processimo's low code builder Called: Prism (Platform for Rapid Innovation & Smart modelling).
-                </p>
-                <a href="https://docs.processimo.com" target="_blank" rel="noopener noreferrer" 
-                  className="inline-flex items-center text-primary hover:underline">
-                  View documentation
-                </a>
-              </div>
+          <div className="max-w-5xl mx-auto mt-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {blogPosts.map((post, index) => (
+                <Card key={index} className="group overflow-hidden">
+                  <CardContent className="p-6">
+                    <p className="text-sm text-muted-foreground mb-2">{post.date}</p>
+                    <h3 className="text-xl font-semibold mb-3 h-20 group-hover:text-primary transition-colors">
+                      <a href={post.link}>{post.title}</a>
+                    </h3>
+                    <div className="flex flex-wrap gap-2 mb-4">
+                      {post.tags.map((tag, i) => (
+                        <span key={i} className="text-xs bg-secondary text-secondary-foreground px-2 py-1 rounded-full flex items-center">
+                          <Tag className="w-3 h-3 mr-1" /> {tag}
+                        </span>
+                      ))}
+                    </div>
+                    <a href={post.link} className="text-sm font-semibold text-primary inline-flex items-center">
+                      Read More <ArrowRight className="ml-1 h-4 w-4" />
+                    </a>
+                  </CardContent>
+                </Card>
+              ))}
             </div>
-            
-            {/* Large banner image */}
-            <div className="mt-20 rounded-lg overflow-hidden border border-border shadow-md">
-              <div className="aspect-[21/9] w-full bg-secondary/50 flex items-center justify-center">
-                <img src="/images/3.png" className="relative z-10 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 rounded-large aspect-square h-full w-full object-cover object-top" alt="Mimic how you actually work" data-loaded="true"></img>
-              </div>
+
+            <div className="text-center mt-16">
+              <Button size="lg" variant="outline">
+                Read All Posts
+              </Button>
             </div>
           </div>
         </div>
@@ -60,4 +72,4 @@ const ResourcesPage = () => {
   );
 };
 
-export default ResourcesPage;
+export default BlogPage;

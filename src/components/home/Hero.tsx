@@ -1,17 +1,15 @@
 
 import { Link } from "react-router-dom";
-import { ArrowRight, Brain, Zap, Laptop, Users } from "lucide-react";
+import { ArrowRight, Brain, Users, ShieldCheck, Scale } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const Hero = () => {
   const phrases = [
-    "Market Research",
-    "Customer Support",
-    "Auditing",
-    "Marketing Campaign",
-    "Content Creation",
-    "Software Testing",
-    "SEO Optimization"
+    "Contract Drafting",
+    "Legal Research",
+    "Due Diligence",
+    "Compliance Monitoring",
+    "Case Management"
   ];
   
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
@@ -24,21 +22,17 @@ const Hero = () => {
     
     const timer = setTimeout(() => {
       if (!isDeleting) {
-        // Typing forward
         setDisplayText(currentPhrase.substring(0, displayText.length + 1));
-        setTypingSpeed(150); // typing speed
+        setTypingSpeed(150);
         
-        // If we've fully typed the word, start deleting after a pause
         if (displayText === currentPhrase) {
-          setTypingSpeed(500); // delay before deleting
+          setTypingSpeed(1500); // Pause before deleting
           setIsDeleting(true);
         }
       } else {
-        // Deleting
         setDisplayText(currentPhrase.substring(0, displayText.length - 1));
-        setTypingSpeed(80); // faster when deleting
+        setTypingSpeed(80);
         
-        // If we've fully deleted the word, move to next word
         if (displayText === "") {
           setIsDeleting(false);
           setCurrentPhraseIndex((currentPhraseIndex + 1) % phrases.length);
@@ -62,14 +56,14 @@ const Hero = () => {
           {/* Badge */}
           <div className="animate-fade-in">
             <span className="inline-flex items-center px-3 py-1 text-sm font-medium rounded-full bg-secondary text-secondary-foreground">
-              <Zap className="w-4 h-4 mr-1" />
-              <span>Supercharge your business with AI agents</span>
+              <Scale className="w-4 h-4 mr-1" />
+              <span>The AI-Powered Legal Operations Platform</span>
             </span>
           </div>
           
           {/* Headline */}
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight max-w-4xl animate-slide-up text-balance">
-            Design, build and deploy <br />AI agent workflows to Automate your
+            The AI-Native Platform to Automate your
             <span className="relative ml-2"><br />
               <span className="text-gradient min-h-[1.25em] inline-block">{displayText}</span>
               <span className="auto -bottom-1 left-0 right-0 h-1 bg-gradient-to-r from-purple-500/40 to-cyan-500/40 rounded-full"></span>
@@ -78,23 +72,23 @@ const Hero = () => {
           
           {/* Description */}
           <p className="text-xl text-muted-foreground max-w-2xl animate-slide-up animation-delay-100 text-balance">
-            Build specialized AI agents for thousands of tasks. Let multiple agents collaborate to solve complex problems while you focus on what matters.
+            Processimo is the first AI-native legal platform. Automate routine tasks, manage cases effortlessly, and gain critical insights—all in one secure platform.
           </p>
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 animate-slide-up animation-delay-200">
             <Link
-              to="/prism"
+              to="/pricing"
               className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium transition-colors hover:bg-primary/90"
             >
-              Get Started Free
+              Book a Demo
               <ArrowRight className="ml-2 w-4 h-4" />
             </Link>
             <Link
-              to="/features"
+              to="/product"
               className="inline-flex items-center justify-center px-6 py-3 rounded-lg border border-border bg-background hover:bg-secondary transition-colors"
             >
-              Explore Features
+              Explore Product
             </Link>
           </div>
           
@@ -104,27 +98,27 @@ const Hero = () => {
               <div className="w-12 h-12 rounded-full bg-secondary flex items-center justify-center mb-2">
                 <Brain className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="font-medium">Specialized AI Agents</h3>
+              <h3 className="font-medium">Legal AI Agents</h3>
               <p className="text-sm text-muted-foreground">
-                Build custom AI agents for any task with your own data
+                Deploy AI agents like ContractBot and ComplianceBot to handle routine legal work.
               </p>
             </div>
             <div className="flex flex-col items-center text-center space-y-2">
               <div className="w-12 h-12 rounded-full bg-secondary flex items-center justify-center mb-2">
                 <Users className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="font-medium">Multi-Agent Collaboration</h3>
+              <h3 className="font-medium">Automated Workflows</h3>
               <p className="text-sm text-muted-foreground">
-                Let agents work together to solve complex problems
+                Visually design and automate complex legal processes, from client intake to case filing.
               </p>
             </div>
             <div className="flex flex-col items-center text-center space-y-2">
               <div className="w-12 h-12 rounded-full bg-secondary flex items-center justify-center mb-2">
-                <Laptop className="w-6 h-6 text-primary" />
+                <ShieldCheck className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="font-medium">Agent Marketplace</h3>
+              <h3 className="font-medium">Secure & Compliant</h3>
               <p className="text-sm text-muted-foreground">
-                Access pre-built agents on subscription basis
+                Built with enterprise-grade security and ready for on-premise deployment.
               </p>
             </div>
           </div>

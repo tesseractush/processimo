@@ -1,37 +1,37 @@
 
-import { CheckCircle } from "lucide-react";
+import { CheckCircle, UploadCloud, Bot, Workflow, BarChart, Shield } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const timelineSteps = [
   {
-    title: "Initialization",
-    description: "Set up your Processimo account and configure your workspace to match your business needs.",
+    title: "Onboard & Integrate",
+    description: "Connect your existing systems—DMS, CMS, email, and calendars—in minutes.",
     icon: CheckCircle,
   },
   {
-    title: "Agent Creation",
-    description: "Design and build specialized AI agents tailored to your specific business tasks and workflows.",
-    icon: CheckCircle,
+    title: "Ingest Your Data",
+    description: "Securely upload documents, case files, and contracts into your private, encrypted knowledge base.",
+    icon: UploadCloud,
   },
   {
-    title: "Knowledge Training",
-    description: "Train your agents with relevant business data, documents, and domain-specific information.",
-    icon: CheckCircle,
+    title: "Deploy Legal AI Agents",
+    description: "Activate pre-built agents like ContractBot and ComplianceBot to start automating tasks immediately.",
+    icon: Bot,
   },
   {
-    title: "Workflow Design",
-    description: "Connect multiple agents into automated workflows that handle complex, multi-step processes.",
-    icon: CheckCircle,
+    title: "Automate Workflows",
+    description: "Use our no-code builder to design custom legal workflows for intake, approvals, and e-discovery.",
+    icon: Workflow,
   },
   {
-    title: "Feedback Loop",
-    description: "Analyze agent performance and refine them based on real-world interactions and outcomes.",
-    icon: CheckCircle,
+    title: "Gain Insights",
+    description: "Track case progress, monitor risk, and analyze team performance from a unified dashboard.",
+    icon: BarChart,
   },
   {
-    title: "Deployment & Scaling",
-    description: "Fully deploy your agents across your organization and scale as your business grows.",
-    icon: CheckCircle,
+    title: "Scale Securely",
+    description: "Expand usage across your firm with enterprise-grade security, role-based access, and on-premise options.",
+    icon: Shield,
   },
 ];
 
@@ -41,13 +41,13 @@ const Timeline = () => {
       <div className="container mx-auto">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <span className="px-3 py-1 text-sm font-medium rounded-full bg-secondary text-secondary-foreground inline-block mb-4">
-            Implementation Process
+            How It Works
           </span>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
-            Your journey to AI-powered productivity
+            Your Path to an AI-Powered Legal Practice
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Follow these six steps to transform your business operations with Processimo's AI agents.
+            A streamlined, six-step journey to automate your legal operations and unlock new efficiencies.
           </p>
         </div>
 

@@ -25,10 +25,11 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { name: "Features", path: "/features" },
-    { name: "Testimonials", path: "/testimonials" },
+    { name: "Product", path: "/product" },
+    { name: "Solutions", path: "/solutions" },
+    { name: "How It Works", path: "/how-it-works" },
     { name: "Pricing", path: "/pricing" },
-    { name: "Resources", path: "/resources" }
+    { name: "Open Source", path: "/open-source" }
   ];
 
   return (
@@ -40,9 +41,8 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center space-x-2">
-          <span className="text-xl font-bold tracking-tight">
-            Processimo
-          </span>
+          <img src="/images/foldericon.png" alt="Processimo Logo" className="h-8 w-8" />
+          <span className="font-bold text-lg">Processimo</span>
         </Link>
         
         {/* Desktop Menu */}

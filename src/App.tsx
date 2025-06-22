@@ -7,8 +7,12 @@ import Index from "./pages/Index";
 import FeaturesPage from "./pages/Features";
 import TestimonialsPage from "./pages/Testimonials";
 import PricingPage from "./pages/Pricing";
-import ResourcesPage from "./pages/Resources";
+
 import ContactPage from "./pages/Contact";
+import SolutionsPage from "./pages/Solutions";
+import HowItWorksPage from "./pages/HowItWorks";
+import OpenSourcePage from "./pages/OpenSource";
+import SecurityCompliancePage from "./pages/SecurityCompliance";
 import BlogPost from "./pages/BlogPost";
 import DocumentationPost from "./pages/DocumentationPost";
 import GuidesPost from "./pages/GuidesPost";
@@ -29,10 +33,14 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/features" element={<FeaturesPage />} />
+          <Route path="/product" element={<FeaturesPage />} />
+          <Route path="/solutions" element={<SolutionsPage />} />
+          <Route path="/how-it-works" element={<HowItWorksPage />} />
           <Route path="/testimonials" element={<TestimonialsPage />} />
           <Route path="/pricing" element={<PricingPage />} />
-          <Route path="/resources" element={<ResourcesPage />} />
+          <Route path="/open-source" element={<OpenSourcePage />} />
+          <Route path="/security-compliance" element={<SecurityCompliancePage />} />
+          
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/careers" element={<CareersPage />} />
           <Route path="/about" element={<AboutPage />} />
